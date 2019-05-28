@@ -1,33 +1,73 @@
-.App {
-  text-align: center;
-}
-
-.App-logo {
-  animation: App-logo-spin infinite 20s linear;
-  height: 40vmin;
-  pointer-events: none;
-}
-
-.App-header {
-  background-color: #282c34;
-  min-height: 100vh;
+@import url('https://fonts.googleapis.com/css?family=Anton&display=swap');
+.App{
   display: flex;
   flex-direction: column;
-  align-items: center;
-  justify-content: center;
-  font-size: calc(10px + 2vmin);
-  color: white;
+  width: 800px;
+  height: 400px;
+  background-color: #262626;
+  margin: 10% auto ;
 }
-
-.App-link {
-  color: #61dafb;
+.inbtn{
+  display: flex;
+  justify-content: space-around;
+  flex-direction: row;
+  height: 30px;
+  width: 800px
 }
-
-@keyframes App-logo-spin {
-  from {
-    transform: rotate(0deg);
-  }
-  to {
-    transform: rotate(360deg);
-  }
+.h2{
+font-family: 'Anton', sans-serif;
+font-size: 35px;
+font-weight: 400;
+line-height: 36px;
+color: rgb(242, 242, 242);
+}
+.input{
+width: 400px;
+height:30px;
+margin-top: 25px;
+font-family: 'Anton', sans-serif;
+font-size: 20px;
+font-weight: 400;
+line-height: 36px;
+color: rgb(7, 7, 7);
+border-radius: 10px
+}
+.btn{
+  width: 100px;
+  height: 30px;
+  margin-top: 30px;
+  margin-left: -20px;
+  background-color: white;
+  color: black;
+  font-family: 'Anton', sans-serif;
+font-size: 20px;
+font-weight: 400;
+line-height: 36px;
+display: flex;
+justify-content: center;
+align-items: center;
+text-align: center
+}
+.ul{
+margin-top: 30px ;
+margin-left: auto;
+margin-right: auto;
+width: 400px;
+height: 30px;
+}
+.li{
+  background-color: white;
+  list-style-type:none;
+  text-align: center;
+  font-family: 'Anton', sans-serif;
+  font-size: 20px;
+  font-weight: 400;
+  line-height: 36px;
+  border-radius: 10px;
+  margin-bottom: 10px;
+  display: flex;
+  justify-content: space-around;
+}
+.fas{
+  margin-top: 7px
 }
